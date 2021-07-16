@@ -17,8 +17,45 @@ Python packages: pandas, path, plotly, sklearn
 ## Analysis 
 
 ### Data Cleaning
+After loading in the data frame, I dropped all cryptocurrencies that were not being traded. 
 
+```
+crypto_df = crypto_df[crypto_df['IsTrading'] != False]
+crypto_df.shape
+```
+Next, I dropped the IsTrading column. 
 
+```
+crypto_df = crypto_df.drop(columns = ["IsTrading"])
+crypto_df.head()
+```
+Then, I removed all rows that had any null values. 
+
+```
+for column in crypto_df.columns:
+    print(f"Column {column} has {crypto_df[column].isnull().sum()} null values")
+```
+
+After that, I kept only the rows where more than 0 coins had been mined. 
+
+```
+crypto_df = crypto_df[crypto_df["TotalCoinsMined"] > 0]
+```
+
+Then. I created a new data frame to hold only cryptocurrency names and dropped the CoinName column to leave only the tickers.
+
+```
+crypto_names_df = crypto_df.drop(columns = ["Algorithm", "ProofType", "TotalCoinsMined", "TotalCoinSupply"])
+```
+
+```
+crypto_df = crypto_df.drop(columns = ["CoinName"])
+```
+The last step in preparing the data was scaling the data. 
+
+```
+X = StandardScaler().fit_transform(X)
+```
 
 -----
 
