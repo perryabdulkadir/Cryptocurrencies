@@ -95,6 +95,10 @@ This is the final chart, which displays the name of the cryptocurrency on hover-
 
 ![scatter_plot.png](Resources/scatter_plot.PNG)
 
+
+## Summary and Recommendation
+The large majority of cryptocurrencies fell into clusters 0 and 3. Cluster 2 only had one currency and cluster 1 only had 4. Going forward, it would be a good idea to check the market caps of clusters 1 and 2. If it turns out these coins have insignificant market caps, it may be worth removing them from the data set to provide a streamlined service for customers - choosing from two baskets of cryptos is easier than choosing from four, especially since one of the baskets isn't even really a "basket" at all, with just one coin. It would also be prudent to do analysis to determine what traits the clusters have in common. It would be much easier to sell customers a "new and emerging crypto fund," for example, as opposed to an abstract category.
+
 -----
 
 ### **Contact:**
