@@ -65,6 +65,18 @@ After this, I used PCA (Principal Component Analysis) to reduce the dimensions t
 
 ### Clustering Using K-Means
 
+Elbow curves can be used to find an appropriate value for k.
+
+![elbow_curve.png](Resources/elbow_curve.PNG)
+
+The graph quickly levels out starting at 4, so that is the value I used for k. 
+
+Next, I initialized and ran the k-means model. 
+
+![k_means_model.png](Resources/k_means_model.PNG)
+
+
+
 
 -----
 
