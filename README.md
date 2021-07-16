@@ -2,11 +2,8 @@
 Using clustering machine learning algorithms to group cryptocurrencies
 
 ## Overview
-In this project, I have used R Studio to analyze manufacturing data for MechaCar. I analyzed: 
-1) which features of car design influence average mileage per gallon; 
-2) whether suspension coils across three production lots were produced to specifications.
-
-After that, I finished up by creating a summary of an experimental design that may be used to determine the average sticker price of MechaCar's vehicles compared to their largest competitor's.
+In this analysis, I use an unsupervised machine learning cluster algorithm to categorize cryptocurrencies so they may be more easily advertised and sold to clients. 
+After cleaning the data, I used PCA (Principal Component Analysis) to reduce the number of features. I then ran a k-means clustering algorithm and created visualizations based on the results. 
 
 ### Resources
 Software: Jupyter Notebook, Python
