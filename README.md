@@ -75,6 +75,9 @@ Next, I initialized and ran the k-means model.
 
 ![k_means_model.png](Resources/k_means_model.PNG)
 
+The last part of this analysis was creating a new data frame containing all the features of the cryptocurrencies alongside their predicted clusters. 
+
+![combined_df.png](Resources/combined_df.PNG)
 
 
 
