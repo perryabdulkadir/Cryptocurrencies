@@ -82,7 +82,7 @@ The last part of this analysis was creating a new data frame containing all the 
 
 ### Visualizing Cryptocurrency Results
 
-I used a 3D plot to visualize the different classes. Each data point reveals the cryptocurrency it represents when hovered over. 
+I used a 3D hvplot to visualize the different classes. Each data point reveals the cryptocurrency it represents when hovered over. 
 
 ![3d_plot.png](Resources/3d_plot.PNG)
 
