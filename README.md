@@ -63,6 +63,9 @@ After this, I used PCA (Principal Component Analysis) to reduce the dimensions t
 
 ![pca.png](Resources/pca.PNG)
 
+### Clustering Using K-Means
+
+
 -----
 
 ### **Contact:**
