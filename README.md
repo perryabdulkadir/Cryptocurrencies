@@ -1,2 +1,2 @@
 # Cryptocurrencies
-Columbia Data Science Module 18
+Using clustering machine learning algorithms to group cryptocurrencies
