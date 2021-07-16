@@ -57,6 +57,12 @@ The last step in preparing the data was scaling the data.
 X = StandardScaler().fit_transform(X)
 ```
 
+### Reducing Dimensions Using PCA
+
+After this, I used PCA (Principal Component Analysis) to reduce the dimensions to three principal components. 
+
+![pca.png](Resources/pca.PNG)
+
 -----
 
 ### **Contact:**
