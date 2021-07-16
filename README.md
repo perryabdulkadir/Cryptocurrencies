@@ -11,8 +11,7 @@ After that, I finished up by creating a summary of an experimental design that m
 ### Resources
 Software: Jupyter Notebook, Python
 Python packages: pandas, path, plotly, sklearn
-
-[Data:](https://github.com/perryabdulkadir/MechaCar_Statistical_Analysis/tree/main/Resources/Raw%20Data) MechaCar_mpg.csv, Suspension_Coil.csv
+[Data:](https://github.com/perryabdulkadir/Cryptocurrencies/tree/main/Resources) crypto_data.csv
 
 ## Analysis 
 
