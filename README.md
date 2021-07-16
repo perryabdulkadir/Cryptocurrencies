@@ -86,6 +86,14 @@ I used a 3D hvplot to visualize the different classes. Each data point reveals t
 
 ![3d_plot.png](Resources/3d_plot.PNG)
 
+My final visualization was an interactive scatter plot that plots total coin supply and total coins mined on the axes and uses colors to indicate which class a given cryptocurrency belongs to. I used the code below to scale the relevant variables and prepare the data to be plotted. 
+
+
+![scaling.png](Resources/scaling.PNG)
+
+This is the final chart, which displays the name of the cryptocurrency on hover-over.
+
+![scatter_plot.png](Resources/scatter_plot.PNG)
 
 -----
 
